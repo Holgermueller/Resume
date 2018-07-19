@@ -110,7 +110,7 @@ img::-moz-selection {
 
 #mainNav .navbar-nav > li.nav-item > a.nav-link:hover,
 #mainNav .navbar-nav > li.nav-item > a.nav-link:focus:hover {
-  color: #F05F40;
+  color: #4aaaa5;
 }
 
 #mainNav .navbar-nav > li.nav-item > a.nav-link.active,
