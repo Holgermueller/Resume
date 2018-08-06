@@ -74,6 +74,10 @@ h2 {
   text-transform: uppercase;
 }
 
+.img-profile {
+  transform: rotate(90deg);
+}
+
 @media (min-width: 992px) {
   #sideNav {
     text-align: center;
