@@ -11,7 +11,7 @@
         "theme",
         "template"
     ],
-    "scripts" : {
+    "scripts": {
         "start": "node resume.js"
     },
     "homepage": "https://startbootstrap.com/template-overviews/creative",
