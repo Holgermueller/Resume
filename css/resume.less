@@ -1,7 +1,7 @@
 // palette
-@primary-color: #4aaaa5;
-@secondary-color: #999999;
-@accent-color: aquamarine;
+@primary-color: #CEE6F6;
+@secondary-color: #f1f1f1;
+@accent-color: #0079b0;
 
 // global
 html, body {
@@ -15,12 +15,21 @@ ul {
 
 hr {
     border: .5px solid @accent-color;
+    margin: 6% 0;
 }
 
 .section-name {
     margin-left: 10%;
     font-size: 30px;
     color: @accent-color;
+}
+
+.text {
+    font-family: 'Roboto', sans-serif;
+    width: 60%;
+    margin-left: 15%;
+    line-height: 1.5;
+    text-align: justify;
 }
 
 // nav bar styles
@@ -74,24 +83,44 @@ a:hover {
 
   // about
   .name {
-      font-size: 60px;
+      font-size: 60px; 
       margin-left: 23%;
+      font-family: 'Montserrat', sans-serif;
   }
   
   .first-name {
       float: left;
+      color: #B5DCF6;
   }
 
   .surname {
       margin-left: 3px;
+      color: @accent-color;
   }
 
-  .contact-icons {
-    margin-left: 40%;
+  .address, .email {
+    font-family: 'Roboto', sans-serif;
+  }
+
+  .contact {
+      text-align: center;
+      font-weight: 400;
+  }
+
+  // portfolio
+
+  //experience
+  .experience-history {
+      margin-left: 15%;
   }
 
   // skills and tech
-  .skills-icons li{
+  .skills-icons li {
     display: inline;
-    font-size: 40px;
+    font-size: 40px; 
+    margin-left: 15%;
+  }
+
+  .skills-icons-list {
+    width: 71%;
   }
