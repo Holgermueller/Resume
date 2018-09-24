@@ -4,19 +4,29 @@
 @accent-color: aquamarine;
 
 // global
+html, body {
+    padding: 0;
+    margin: 0;
+}
+
 ul {
     list-style-type: none;
 }
 
+hr {
+    border: .5px solid @accent-color;
+}
+
 .section-name {
-    margin-left: 5%;
+    margin-left: 10%;
     font-size: 30px;
+    color: @accent-color;
 }
 
 // nav bar styles
 .profile-img {
     width: 200px;
-    height: 200px;
+    height: 250px;
     border-radius: 50%;
     border: 8px solid @accent-color;
     margin: 9% 0 0 19%;
@@ -62,6 +72,25 @@ a:hover {
     background-color: @secondary-color;
   }
 
+  // about
+  .name {
+      font-size: 60px;
+      margin-left: 23%;
+  }
+  
+  .first-name {
+      float: left;
+  }
+
+  .surname {
+      margin-left: 3px;
+  }
+
+  .contact-icons {
+    margin-left: 40%;
+  }
+
+  // skills and tech
   .skills-icons li{
     display: inline;
     font-size: 40px;
