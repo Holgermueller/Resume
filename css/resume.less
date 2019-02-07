@@ -113,13 +113,29 @@ a:visited {
 }
 
 // portfolio
-// .projects {
-//     margin-bottom: 68%;
-// }
-
 .projects-list li {
     margin: 0 0 4% 15%;
-}  
+}
+
+.project-name {
+  color: @accent-color;
+  font-family: 'Roboto', sans-serif;
+}
+
+.project-button {
+  border: none;
+  background-color: inherit;
+  font-size: 1em;
+  color: @accent-color;
+}
+
+.project-button:hover {
+  cursor: pointer;
+}
+
+.project-info {
+  display: none;
+}
 
 .project-image {
     width: 167px;
@@ -133,11 +149,26 @@ a:visited {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 
-.project-name {
-    float: right;
-    margin: 9% 17% 0 0;
-    color: @accent-color;
-    font-family: 'Roboto', sans-serif;
+.description {
+  font-family: sans-serif;
+  line-height: 1.5;
+  width: 50%;
+}
+
+.tech-display {
+  display: inline-flex;
+}
+
+.tech-display > li {
+  font-size: 1.5em;
+}
+
+.project-info {
+  text-align: left;
+}
+
+.project-link > a {
+  color: black;
 }
 
 // education
@@ -188,3 +219,6 @@ a:visited {
 .interests {
     margin-bottom: 25px;
 }
+
+// Media queries
+
