@@ -4,9 +4,8 @@
 @accent-color: #0079b0;
 
 // global
-html, body {
-    padding: 0;
-    margin: 0;
+body {
+  background-color: @secondary-color;
 }
 
 ul {
@@ -38,7 +37,7 @@ hr {
     height: 250px;
     border-radius: 50%;
     border: 8px solid @accent-color;
-    margin: 9% 0 0 19%;
+    margin: 14% 0 0 11%;
 }
 
 .navbar {
@@ -48,22 +47,25 @@ hr {
     z-index: 1;
     top: 0;
     left: 0;
-    right: 0;
     overflow-x: hidden;
     background-color: @primary-color;
-    border-right: 4px solid @primary-color;
+}
+
+.nav-links {
+  margin-top: 20%;
 }
 
 .nav-links a {
-    padding: 5% 0 0 2%;
-    display: block;
+  text-align: left;
+  padding: 5%;
+  display: block;
+  text-decoration: none;
+  font-size: 25px;
+  color: @accent-color;
 }
 
-a {
-    text-align: center;
-    text-decoration: none;
-    font-size: 25px;
-    color: @accent-color;
+.nav-links h3, h4 {
+  color: @accent-color;
 }
 
 a:hover {
@@ -78,7 +80,6 @@ a:visited {
 .main {
     padding: 10px;
     margin-left: 25%;
-    background-color: @secondary-color;
 }
 
 // about
@@ -96,6 +97,10 @@ a:visited {
 .surname {
     margin-left: 3px;
     color: @accent-color;
+}
+
+.tag-line {
+  text-align: center;
 }
 
 .email {

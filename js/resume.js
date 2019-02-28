@@ -25,4 +25,9 @@ $(document).ready(() => {
     $('#psychicGameInfo').toggle('show');
   });
 
+  $(document).on('click', '#iTGenerator', e => {
+    e.preventDefault();
+    $('#iTGeneratorInfo').toggle('show');
+  });
+
 });
