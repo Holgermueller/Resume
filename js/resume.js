@@ -30,4 +30,9 @@ $(document).ready(() => {
     $('#iTGeneratorInfo').toggle('show');
   });
 
+  $(document).on('click', '#bucketMERN', e => {
+    e.preventDefault();
+    $('#bucketMERNInfo').toggle('show');
+  });
+
 });
