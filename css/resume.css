@@ -21,7 +21,7 @@ main {
 
 .name {
   font-size: 3rem;
-  font-weight: lighter;
+  font-weight: 100;
   color: var(--accentColor);
 }
 
@@ -51,5 +51,20 @@ a:hover {
 
 h2 {
   font-size: 1.5rem;
+  font-weight: 400;
+}
+
+h3 {
   font-weight: 300;
+  font-size: 1.25rem;
+}
+.skill-list {
+  list-style-type: none;
+}
+.list-item {
+  margin: 12px;
+}
+
+.project {
+  text-indent: 2rem;
 }
