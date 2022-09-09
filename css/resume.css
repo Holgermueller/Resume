@@ -1,7 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap");
+
+:root {
+  --accentColor: #085b68;
+}
+
 body,
 html {
   font-family: "Roboto", sans-serif;
+  background-color: #f8f8ff;
 }
 
 main {
@@ -16,10 +22,11 @@ main {
 .name {
   font-size: 3rem;
   font-weight: lighter;
+  color: var(--accentColor);
 }
 
 .location,
-.contact {
+.email {
   font-size: 1rem;
 }
 
@@ -34,9 +41,15 @@ hr {
 
 a {
   text-decoration: none;
+  font-size: 1rem;
+  color: var(--accentColor);
+}
+
+a:hover {
+  color: skyblue;
 }
 
 h2 {
-  text-decoration: underline;
   font-size: 1.5rem;
+  font-weight: 300;
 }
