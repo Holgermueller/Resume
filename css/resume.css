@@ -3,19 +3,43 @@
 :root {
   --accentColor: #085b68;
   --backgroundColor: #f8f8f8;
+  --textColor: #080808;
+}
+
+.dark-mode {
+  --backgroundColor: #080808;
+  --textColor: #f8f8f8;
+  --accentColor: #13a7be;
 }
 
 body,
 html {
+  margin: 0;
   font-family: "Roboto", sans-serif;
   background-color: var(--backgroundColor);
+  color: var(--textColor);
   line-height: 1.6;
-  margin-bottom: 5%;
 }
 
 main {
   width: 75%;
-  margin: auto;
+  margin-top: auto;
+  margin-bottom: 5%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.theme-button {
+  border: none;
+  background-color: inherit;
+  cursor: pointer;
+  display: block;
+  font-size: 1rem;
+  padding: 1rem 1.5rem;
+  color: var(--accentColor);
+}
+.theme-button:hover {
+  background-color: #eee;
 }
 
 .header {
