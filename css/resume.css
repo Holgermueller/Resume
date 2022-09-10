@@ -2,12 +2,15 @@
 
 :root {
   --accentColor: #085b68;
+  --backgroundColor: #f8f8f8;
 }
 
 body,
 html {
   font-family: "Roboto", sans-serif;
-  background-color: #f8f8ff;
+  background-color: var(--backgroundColor);
+  line-height: 1.6;
+  margin-bottom: 5%;
 }
 
 main {
@@ -21,12 +24,13 @@ main {
 
 .name {
   font-size: 3rem;
-  font-weight: 100;
+  font-weight: 500;
   color: var(--accentColor);
 }
-
+.description,
 .location,
 .email {
+  font-weight: 400;
   font-size: 1rem;
 }
 
@@ -41,6 +45,7 @@ hr {
 
 a {
   text-decoration: none;
+  font-weight: 400;
   font-size: 1rem;
   color: var(--accentColor);
 }
@@ -58,13 +63,23 @@ h3 {
   font-weight: 300;
   font-size: 1.25rem;
 }
-.skill-list {
-  list-style-type: none;
+
+.skill {
+  margin-left: 2rem;
 }
-.list-item {
-  margin: 12px;
+.stack-cards,
+.project,
+.job,
+.school {
+  text-indent: 2rem;
 }
 
-.project {
-  text-indent: 2rem;
+.responsibilities {
+  margin-left: 2rem;
+  font-weight: 300;
+  font-size: 1rem;
+}
+.project-description,
+.further-description {
+  margin-left: 4rem;
 }
