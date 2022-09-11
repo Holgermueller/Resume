@@ -4,12 +4,14 @@
   --accentColor: #085b68;
   --backgroundColor: #f8f8f8;
   --textColor: #080808;
+  --hoverColor: skyblue;
 }
 
 .dark-mode {
   --backgroundColor: #080808;
   --textColor: #f8f8f8;
   --accentColor: #13a7be;
+  --hoverColor: #66ffff;
 }
 
 body,
@@ -37,9 +39,11 @@ main {
   font-size: 1rem;
   padding: 1rem 1.5rem;
   color: var(--accentColor);
+  border-radius: 15px;
 }
 .theme-button:hover {
-  background-color: #eee;
+  background-color: #a9a9a9;
+  color: var(--hoverColor);
 }
 
 .header {
@@ -65,6 +69,8 @@ hr {
 .social-links {
   display: flex;
   justify-content: space-between;
+  column-gap: 0.5rem;
+  flex-wrap: wrap;
 }
 
 a {
@@ -75,7 +81,7 @@ a {
 }
 
 a:hover {
-  color: skyblue;
+  color: var(--hoverColor);
 }
 
 h2 {
