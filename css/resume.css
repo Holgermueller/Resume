@@ -94,8 +94,9 @@ h3 {
 .stack-cards,
 .project,
 .job,
+.job-date,
 .school {
-  text-indent: 2rem;
+  margin-left: 2rem;
 }
 
 .responsibilities {
